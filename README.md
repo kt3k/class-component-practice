@@ -11,3 +11,8 @@
 - Presenter should send command the children views if the change doesn't belongs to the Presenter.
 - Models are implemented somewhere isolated from dom tree.
 - Application state should be stored in presenter.
+
+## Component
+- Component handles the event from the children views.
+- Component queries the children when it need to affect them.
+- Componnet raises events when it needs to pass information to the above components.
